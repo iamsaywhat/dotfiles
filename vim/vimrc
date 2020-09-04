@@ -3,18 +3,15 @@ set nocompatible
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
-
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'
 Plugin 'kien/ctrlp.vim'
 Plugin 'henrik/vim-indexed-search'
-"Plugin 'lyuts/vim-rtags'
 Plugin 'kopischke/vim-fetch'
 Plugin 'tmux-plugins/vim-tmux'
 Plugin 'gnattishness/cscope_maps'
 Plugin 'kergoth/vim-bitbake'
-Plugin 'rlue/vim-barbaric'
 Plugin 'mhinz/vim-signify'
 Plugin 'edkolev/tmuxline.vim'
 let g:tmuxline_powerline_separators = 0
@@ -58,7 +55,7 @@ set expandtab
 
 " highlighting
 syntax on
-set relativenumber
+set number
 set hlsearch
 
 filetype indent on
