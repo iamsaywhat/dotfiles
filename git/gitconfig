@@ -1,6 +1,6 @@
 [user]
-	name = Georgii Staroselskii
-	email = georgii.staroselskii@emlid.com
+	name = Andrei Seliverstov
+	email = andrei.seliverstov@emlid.com
 [alias]
     lg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     unstage = reset HEAD
