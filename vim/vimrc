@@ -28,6 +28,9 @@ set termencoding=utf-8
 set clipboard=unnamedplus
 set clipboard=unnamed
 
+"use clipboad"
+set clipboard=unnamedplus
+
 " Remember info about open buffers on close
 set viminfo^=%
 
