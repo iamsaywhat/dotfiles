@@ -9,13 +9,14 @@
     subupdate = submodule update --init --recursive
     cpick = cherry-pick
     branchdate =  ! ~/.git/helpers/git-branchdate-helper
-
+    hist = log --pretty=format:'%Cred%h%Creset %ad %C(yellow)|%Creset %s%C(yellow)%d%Creset %C(bold blue)[%an]%Creset' --graph --date=short
 [merge]
 	tool = vimdiff
 	ff = only
 	conflictstyle = diff3
 [core]
 	excludesfile = ~/.gitignore
+    pager = ""
 [color]
 	ui = auto
 [gpg]
